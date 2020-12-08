@@ -66,7 +66,8 @@ class RandomWordsState extends State<RandomWords> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('WordPair Generator'), actions: <Widget>[
+      appBar: AppBar(title: Text('WordPair Generator'),
+       actions: <Widget>[
         IconButton(
           icon: Icon(Icons.list),
           onPressed: _pushSaved,
